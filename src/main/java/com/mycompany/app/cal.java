@@ -1,3 +1,4 @@
+package com.mycomapny.app;
 import java.util.Scanner;
 
 public class cal {
