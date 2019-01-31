@@ -46,7 +46,7 @@ public class cal {
 							break;
 
 			}
-	}while(choice!=1)
+	}while(choice!=2);
 
     	
 
