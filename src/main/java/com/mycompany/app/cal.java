@@ -8,7 +8,7 @@ public class cal {
     	float a, b, res;
     	char choice, ch;
     	Scanner scan = new Scanner(System.in);
-  
+  	do{
     		System.out.println("1. Add Two Numbers");
     		System.out.println("2. Exit");
     		System.out.println("3. Subtract Two Numbers");
@@ -46,6 +46,7 @@ public class cal {
 							break;
 
 			}
+	}while(choice!=1)
 
     	
 
