@@ -7,19 +7,14 @@ public class cal {
 
     	float a=9, b=8, res;
     	char choice=1, ch=1;
-    	Scanner scan = new Scanner(System.in);
   	do{
-    		System.out.println("1. Add Two Numbers");
-    		System.out.println("2. Exit");
-    		System.out.println("3. Subtract Two Numbers");
-    		System.out.println("4. Multiply Two Numbers");
-
-    		System.out.println(" Enter your choice");
+    		
 			switch(choice)
 			{
-				case '1' :  System.out.println(" Enter Two Numbers: ");
-							a = scan.nextFloat();
-							b = scan.nextFloat();
+				case '1' :  System.out.println(" Adding Two Numbers: ");
+							System.out.println("a = "+a);
+					
+							System.out.println("b = "+b);
 							res = a + b;
 							System.out.println(" result = " + res);
 							break;
@@ -28,15 +23,13 @@ public class cal {
 							break;
 
 				case '3' :  System.out.println(" Enter Two Numbers: ");
-							a = scan.nextFloat();
-							b = scan.nextFloat();
+
 							res = a - b;
 							System.out.println(" result = " + res);
 							break;
 
 				case '4' :  System.out.println(" Enter Two Numbers: ");
-							a = scan.nextFloat();
-							b = scan.nextFloat();
+							
 							res = a*b;
 							System.out.println(" result = " + res);
 							break;
