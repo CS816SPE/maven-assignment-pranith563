@@ -6,7 +6,7 @@ public class cal {
     public static void main(String[] args) {
 
     	float a=9, b=8, res;
-    	char choice, ch=1;
+    	char choice=1, ch=1;
     	Scanner scan = new Scanner(System.in);
   	do{
     		System.out.println("1. Add Two Numbers");
